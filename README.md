@@ -79,13 +79,14 @@ We provide example training scripts for both unsupervised and supervised SimCSE.
 * `--pooler_type`: Pooling method.
 * `--mlp_only_train`: We have found that for unsupervised SimCSE, it works better to train the model with MLP layer but test the model without it. You should use this argument when training unsupervised SimCSE models.
 * `--hard_negative_weight`: If using hard negatives (i.e., there are 3 columns in the training file), this is the logarithm of the weight. For example, if the weight is 1, then this argument should be set as 0 (default value).
+* `--num` : Transformer blocks number chosen for S2Sent.
+* `--dim1` : Input embedding dimenison in S2Sent.
+* `--dim2` : bottleneck dimenison in S2Sent. 
+* `--dct_basis` : dct basis functions chosen for S2Sent.
 * `--do_mlm`: Whether to use the MLM auxiliary objective. If True:
   * `--mlm_weight`: Weight for the MLM objective.
   * `--mlm_probability`: Masking rate for the MLM objective.
-* `--num` : Transformer blocks number chosen.
-* `--dim1` : Input embedding dimenison.
-* `--dim2` : bottleneck dimenison. 
-* `--dct_basis` : dct basis functions chosen.
+
 
 
 ## Citation
