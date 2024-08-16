@@ -25,7 +25,6 @@ Our released models are listed as following. You can import these models by usin
 
 ## Finetune Models
 
-In the following section, we describe how to train a SimCSE model by using our code.
 
 ### Requirements
 
