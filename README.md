@@ -6,7 +6,7 @@ This repository contains the code for our paper S2Sent: Nested Selectivity Aware
 
 we propose a novel sentence representation selection mechanism, S2Sent, which incorporates a parameterized nested selector downstream of the Transformer-based encoder. This selector performs a Spatial Selection (SS) nested with Frequency Selection (FS) from a modular perspective. S2Sent modulates feature extraction at different scales within the encoder, optimizing a more potential sentence representation while reducing downstream information redundancy or loss. 
 
-![](figure/S2A.pdf)
+![](figure/S2A.png)
 
 ## Finetuned Model List (替换成自己的模型链接)
 
