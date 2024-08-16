@@ -1,6 +1,6 @@
-## SimCSE: Simple Contrastive Learning of Sentence Embeddings
+## S2Sent: Nested Selectivity Aware Sentence Representation Learning
 
-This repository contains the code and pre-trained models for our paper [SimCSE: Simple Contrastive Learning of Sentence Embeddings](https://arxiv.org/abs/2104.08821).
+This repository contains the code for our paper S2Sent: Nested Selectivity Aware Sentence Representation Learning.
 
 **************************** **Updates** ****************************
 
