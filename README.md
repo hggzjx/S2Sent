@@ -82,10 +82,10 @@ We provide example training scripts for both unsupervised and supervised SimCSE.
 * `--do_mlm`: Whether to use the MLM auxiliary objective. If True:
   * `--mlm_weight`: Weight for the MLM objective.
   * `--mlm_probability`: Masking rate for the MLM objective.
-  * `--num` : Transformer blocks number chosen.
-  * `--dim1` : Input embedding dimenison.
-  * `--dim2` : bottleneck dimenison. 
-  * `--dct_basis` : dct basis functions chosen.
+* `--num` : Transformer blocks number chosen.
+* `--dim1` : Input embedding dimenison.
+* `--dim2` : bottleneck dimenison. 
+* `--dct_basis` : dct basis functions chosen.
 
 
 ## Citation
