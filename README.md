@@ -91,6 +91,6 @@ We provide example training scripts for both unsupervised and supervised SimCSE.
 
 ## Citation
 
-Please cite our paper if you use SimCSE in your work:
+Please cite our paper if you use S2Sent in your work:
 
 # S2Sent
