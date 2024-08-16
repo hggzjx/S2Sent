@@ -8,7 +8,7 @@ we propose a novel sentence representation selection mechanism, S2Sent, which in
 
 ![](figure/S2A.png)
 
-## Finetuned Model List (替换成自己的模型链接)
+<!-- ## Finetuned Model List (替换成自己的模型链接)
 
 Our released models are listed as following. You can import these models by using the `simcse` package or using [HuggingFace's Transformers](https://github.com/huggingface/transformers). 
 |              Model              | Avg. STS |
@@ -20,7 +20,7 @@ Our released models are listed as following. You can import these models by usin
 |   [princeton-nlp/sup-simcse-bert-base-uncased](https://huggingface.co/princeton-nlp/sup-simcse-bert-base-uncased)  |   81.57  |
 |  [princeton-nlp/sup-simcse-bert-large-uncased](https://huggingface.co/princeton-nlp/sup-simcse-bert-large-uncased)  |   82.21  |
 |     [princeton-nlp/sup-simcse-roberta-base](https://huggingface.co/princeton-nlp/sup-simcse-roberta-base)     |   82.52  |
-|     [princeton-nlp/sup-simcse-roberta-large](https://huggingface.co/princeton-nlp/sup-simcse-roberta-large)    |   83.76  |
+|     [princeton-nlp/sup-simcse-roberta-large](https://huggingface.co/princeton-nlp/sup-simcse-roberta-large)    |   83.76  | -->
 
 
 ## Finetune Models
