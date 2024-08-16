@@ -1,41 +1,10 @@
-## SimCSE: Simple Contrastive Learning of Sentence Embeddings
+## S2Sent: Nested Selectivity Aware Sentence Representation Learning
 
-This repository contains the code and pre-trained models for our paper [SimCSE: Simple Contrastive Learning of Sentence Embeddings](https://arxiv.org/abs/2104.08821).
-
-**************************** **Updates** ****************************
-
-<!-- Thanks for your interest in our repo! -->
-
-<!-- Probably you will think this as another *"empty"* repo of a preprint paper 🥱.
-Wait a minute! The authors are working day and night 💪, to make the code and models available, so you can explore our state-of-the-art sentence embeddings.
-We anticipate the code will be out * **in one week** *. -->
-
-<!-- * 4/26: SimCSE is now on [Gradio Web Demo](https://gradio.app/g/AK391/SimCSE) (Thanks [@AK391](https://github.com/AK391)!). Try it out! -->
-* 8/31: Our paper has been accepted to EMNLP! Please check out our [updated paper](https://arxiv.org/pdf/2104.08821.pdf) (with updated numbers and baselines). 
-* 5/12: We updated our [unsupervised models](#model-list) with new hyperparameters and better performance.
-* 5/10: We released our [sentence embedding tool](#getting-started) and [demo code](./demo).
-* 4/23: We released our [training code](#training).
-* 4/20: We released our [model checkpoints](#use-our-models-out-of-the-box) and [evaluation code](#evaluation).
-* 4/18: We released [our paper](https://arxiv.org/pdf/2104.08821.pdf). Check it out!
-
-
-## Quick Links
-
-  - [Overview](#overview)
-  - [Getting Started](#getting-started)
-  - [Model List](#model-list)
-  - [Use SimCSE with Huggingface](#use-simcse-with-huggingface)
-  - [Train SimCSE](#train-simcse)
-    - [Requirements](#requirements)
-    - [Evaluation](#evaluation)
-    - [Training](#training)
-  - [Bugs or Questions?](#bugs-or-questions)
-  - [Citation](#citation)
-  - [SimCSE Elsewhere](#simcse-elsewhere)
+This repository contains the code for our paper S2Sent: Nested Selectivity Aware Sentence Representation Learning.
 
 ## Overview
 
-We propose a simple contrastive learning framework that works with both unlabeled and labeled data. Unsupervised SimCSE simply takes an input sentence and predicts itself in a contrastive learning framework, with only standard dropout used as noise. Our supervised SimCSE incorporates annotated pairs from NLI datasets into contrastive learning by using `entailment` pairs as positives and `contradiction` pairs as hard negatives. The following figure is an illustration of our models.
+we propose a novel sentence representation selection mechanism, S2Sent, which incorporates a parameterized nested selector downstream of the Transformer-based encoder. This selector performs a Spatial Selection (SS) nested with Frequency Selection (FS) from a modular perspective. S2Sent modulates feature extraction at different scales within the encoder, optimizing a more potential sentence representation while reducing downstream information redundancy or loss. 
 
 ![](figure/model.png)
 
